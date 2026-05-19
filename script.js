@@ -21,6 +21,11 @@ function subtract() {
     showResult(num1 - num2);
 }
 
+function multiply() {
+    const { num1, num2 } = getValues();
+    showResult(num1 * num2);
+}
+
 function divide() {
     const { num1, num2 } = getValues();
     if (num2 === 0) {
@@ -28,6 +33,29 @@ function divide() {
         return;
     }
     showResult(num1 / num2);
+}
+
+function modulo() {
+    const { num1, num2 } = getValues();
+    if (num2 === 0) {
+        showResult('Error');
+        return;
+    }
+    showResult(num1 % num2);
+}
+
+function power() {
+    const { num1, num2 } = getValues();
+    showResult(Math.pow(num1, num2));
+}
+
+function squareRoot() {
+    const { num1 } = getValues();
+    if (num1 < 0) {
+        showResult('Error');
+        return;
+    }
+    showResult(Math.sqrt(num1));
 }
 
 function clearFields() {

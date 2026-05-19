@@ -88,6 +88,26 @@ h1 {
     color: white;
 }
 
+.btn-multiply {
+    background-color: #9C27B0;
+    color: white;
+}
+
+.btn-modulo {
+    background-color: #607D8B;
+    color: white;
+}
+
+.btn-power {
+    background-color: #FF5722;
+    color: white;
+}
+
+.btn-sqrt {
+    background-color: #009688;
+    color: white;
+}
+
 .btn-clear {
     width: 100%;
     background-color: #FF9800;
