@@ -27,7 +27,7 @@ function divide() {
         showResult('Error');
         return;
     }
-    showResult(num1 /// num2);
+    showResult(num1 / num2);
 }
 
 function clearFields() {
